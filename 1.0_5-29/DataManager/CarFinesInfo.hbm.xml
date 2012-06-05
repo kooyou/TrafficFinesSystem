@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="DataManager" assembly="DataManager">
+  <class name="DataManager.CarFinesInfo" table="carfinesinfo">
+    <id name="ticketID" column="ticketID">
+      <generator class="assigned"/>
+    </id>
+    <property name="ticketNo" column="ticketNo" type="String"/>
+    <property name="fines" column="fines" type="int" />
+    <property name="deductions" column="deductions" type="int"/>
+    <property name="time" column="time" type="DateTime"/>
+    <property name="isTransact" column="isTransact" type="bool"/>
+  </class>
+</hibernate-mapping>
