@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   namespace="DataManager" assembly="DataManager">
+  <class name="DataManager.FinesStyleInfo" table="finescodeinfo">
+    <id name="codeID" column="codeID">
+      <generator class="assigned"/>
+    </id>
+    <property name="dePoint" column="dePoint" type="String" />
+    <property name="finesMoney" column="finesMoney" type="String"/>
+    <property name="finesBehavior" column="finesBehavior" type="String"/>
+    <property name="according" column="according" type="String"/>
+  </class>
+</hibernate-mapping>
