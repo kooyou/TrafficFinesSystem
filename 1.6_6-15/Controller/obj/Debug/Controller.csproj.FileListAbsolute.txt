@@ -1,0 +1,11 @@
+f:\VS2010C#文件\TrafficFinesSystem\Controller\obj\Debug\ResolveAssemblyReference.cache
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\Controller.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\Controller.pdb
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\DLLManager.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\DataManager.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\NHibernate.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\Iesi.Collections.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\DLLManager.pdb
+f:\VS2010C#文件\TrafficFinesSystem\Controller\bin\Debug\DataManager.pdb
+f:\VS2010C#文件\TrafficFinesSystem\Controller\obj\Debug\Controller.dll
+f:\VS2010C#文件\TrafficFinesSystem\Controller\obj\Debug\Controller.pdb

@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TrafficFinesSystem", "..\TrafficFinesSystem", "{B327E4F1-B025-4E96-9B3F-816D609CD9C3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}|DLLManager.dll;{AA61F7F4-56A7-4FEE-A108-FE078240F926}|DataManager.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TrafficFinesSystem"
+		Debug.AspNetCompiler.PhysicalPath = "..\TrafficFinesSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TrafficFinesSystem\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TrafficFinesSystem"
+		Release.AspNetCompiler.PhysicalPath = "..\TrafficFinesSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TrafficFinesSystem\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20798"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataManager", "DataManager\DataManager.csproj", "{AA61F7F4-56A7-4FEE-A108-FE078240F926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLLManager", "DLLManager\DLLManager.csproj", "{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{187FFD7E-18A6-4713-A88C-BBA9D94FDD31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D4810EAA-4BB5-4E35-A4AA-FD28EA4A0B99}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\Local.testsettings = ..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\Local.testsettings
+		..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\TraceAndTestImpact.testsettings = ..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\TraceAndTestImpact.testsettings
+		..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\TrafficFinesSystem.vsmdi = ..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\TrafficFinesSystem.vsmdi
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = ..\..\360data\重要数据\我的文档\Visual Studio 2010\Projects\TrafficFinesSystem\TrafficFinesSystem.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B327E4F1-B025-4E96-9B3F-816D609CD9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B327E4F1-B025-4E96-9B3F-816D609CD9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B327E4F1-B025-4E96-9B3F-816D609CD9C3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B327E4F1-B025-4E96-9B3F-816D609CD9C3}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{AA61F7F4-56A7-4FEE-A108-FE078240F926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA61F7F4-56A7-4FEE-A108-FE078240F926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA61F7F4-56A7-4FEE-A108-FE078240F926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA61F7F4-56A7-4FEE-A108-FE078240F926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0E5DB1-BA1C-4F04-BA6C-A91BEA53A74B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{187FFD7E-18A6-4713-A88C-BBA9D94FDD31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{187FFD7E-18A6-4713-A88C-BBA9D94FDD31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{187FFD7E-18A6-4713-A88C-BBA9D94FDD31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{187FFD7E-18A6-4713-A88C-BBA9D94FDD31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
